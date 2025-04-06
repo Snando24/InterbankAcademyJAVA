@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args) {
         if (args.length < 1) {
             // Por favor, ingrese un número como argumento.
-            System.out.println("Please provide a number as an argument.");
+            System.out.println("Por favor, ingrese un número como argumento.");
             return;
         }
 
@@ -74,8 +74,8 @@ public class Main {
         System.out.println("Reporte de Transacciones");
         System.out.println("---------------------------------------------");
         System.out.printf("Balance Final: $%.2f%n", balance);
-        System.out.printf("Transacción de Mayor Monto: ID %d - %.2f%n", transaccionMayor.id, transaccionMayor.monto);
-        System.out.printf("Conteo de Transacciones: Crédito: %d Débito: %d%n", contadorCreditos, contadorDebitos);
+        System.out.printf("Transaccion de Mayor Monto: ID %d - %.2f%n", transaccionMayor.id, transaccionMayor.monto);
+        System.out.printf("Conteo de Transacciones: Credito: %d Debito: %d%n", contadorCreditos, contadorDebitos);
     }
 
     static class Transaccion {

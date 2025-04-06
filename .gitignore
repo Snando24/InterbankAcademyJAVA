@@ -1,0 +1,8 @@
+#ignore las class al compilar
+*.class
+#ignore archivos de log 
+*.log
+#ignore archivos de salida de compilacion
+*.out
+#ignore archivos de salida de compilacion
+*.exe

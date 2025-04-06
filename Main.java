@@ -38,7 +38,7 @@ public class Main {
                     int id = Integer.parseInt(leerTransaccion[0].trim());
                     String tipo = leerTransaccion[1].trim();
                     double monto = Double.parseDouble(leerTransaccion[2].trim());
-                    if(monto < 0 || (!tipo.equals("Crédito") && !tipo.equals("Débito"))) {
+                    if(monto < 0 || (!tipo.equalsIgnoreCase("crédito") && !tipo.equalsIgnoreCase("débito"))) {
                         System.out.println("Transaccion invalida: " + linea);
                         continue; // Ignorar transacciones inválidas
                     }

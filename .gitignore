@@ -6,3 +6,5 @@
 *.out
 #ignore archivos de salida de compilacion
 *.exe
+#ignore archivos de la carpeta out
+out/

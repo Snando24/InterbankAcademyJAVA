@@ -11,8 +11,9 @@ El objetivo es facilitar el análisis rápido de operaciones financieras a parti
 - **Transacción de Mayor Monto**: Identifica la transacción con el monto más alto.
 - **Conteo de Transacciones**: Muestra cuántas transacciones hubo por tipo.
 
-Además, el programa ignora diferencias entre mayúsculas/minúsculas y tildes en los tipos de transacción.
+> Además, el programa ignora diferencias entre mayúsculas/minúsculas.
 
+---
 
 ## ⚙️ Instrucciones de Ejecución
 
@@ -21,19 +22,16 @@ Además, el programa ignora diferencias entre mayúsculas/minúsculas y tildes e
 - Java 8 o superior instalado.
 - Editor o IDE recomendado: IntelliJ IDEA, Eclipse, VS Code, etc.
 
+### Compilación y ejecución
 
-### Compilar
-
-Desde la terminal o símbolo del sistema (cmd):
+Desde la terminal o símbolo del sistema (cmd), ubicado en el directorio donde está el archivo `Main.java` y el archivo `data.csv`:
 
 ```bash
-- javac Main.java
-- java Main data.csv
+javac Main.java
+java Main data.csv
+```
 
-### Salida
+### Contribuciones
 
-Reporte de Transacciones
----------------------------------------------
-Balance Final: 325.00
-Transacción de Mayor Monto: ID 3 - 200.00
-Conteo de Transacciones: Crédito: 3 Débito: 2
+- Este proyecto fue desarrollado por Fernando.  
+- ¡Sientete libre de aportar mejoras o sugerencias!
